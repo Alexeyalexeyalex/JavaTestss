@@ -1,0 +1,36 @@
+lists.py: 
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+
+list_tests.py:
+
+************* Module list_tests
+list_tests.py:21:19: W0621: Redefining name 'set_first_list' from outer scope (line 7) (redefined-outer-name)
+list_tests.py:21:35: W0621: Redefining name 'set_second_list' from outer scope (line 14) (redefined-outer-name)
+list_tests.py:27:19: W0621: Redefining name 'set_first_list' from outer scope (line 7) (redefined-outer-name)
+list_tests.py:27:35: W0621: Redefining name 'set_second_list' from outer scope (line 14) (redefined-outer-name)
+list_tests.py:33:17: W0621: Redefining name 'set_first_list' from outer scope (line 7) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 6.67/10, +0.00)
+
+
+cover: 
+============================================== test session starts ===============================================
+platform linux -- Python 3.10.12, pytest-7.4.2, pluggy-1.3.0
+rootdir: /home/neotyanka/Рабочий стол/GB/Java/JavaTestss/DZ6
+plugins: cov-4.1.0
+collected 3 items                                                                                                
+
+list_tests.py ...                                                                                          [100%]
+
+---------- coverage: platform linux, python 3.10.12-final-0 ----------
+Name            Stmts   Miss  Cover   Missing
+---------------------------------------------
+list_tests.py      17      1    94%   43
+lists.py           14      1    93%   13
+---------------------------------------------
+TOTAL              31      2    94%
